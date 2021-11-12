@@ -1,0 +1,23 @@
+.p-profile{
+    background-image: url("../../assets\images\me.jpg");
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.p-tag{
+    background: #7af1ec;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.p-des{
+    color: #acacac;
+    width: 80%;
+}
+.p-link{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
