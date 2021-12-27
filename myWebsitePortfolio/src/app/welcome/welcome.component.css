@@ -1,30 +1,29 @@
 .welcomeBackground{
     background-image: url("../../assets\images\background.jpg");
-    height: 937px;
-    width: 100%;
     background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin: auto;
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 30cm;
+
 }
 .welcome{
     color: rgb(255, 255, 255);
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 50px;
     font-weight: 0;
-    width: 130px;
-    height: 500px;
     position: absolute;
     left: 49.5%;
-    top: 50%; 
+    top: 500px;
     margin-left: -65px;
     margin-top: -250px;
 }
 .p-link{
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 50%;
+    top: 500px;
     left: 50%;
     transform: translate(-50%, 0%);
-
+    width: auto;
+    height: auto;
 }
