@@ -1,6 +1,9 @@
 header{
     padding:30px 0;
 }
+.p-cursor{
+    cursor: pointer;
+}
 .p-hamburger{
     cursor: pointer;
 }

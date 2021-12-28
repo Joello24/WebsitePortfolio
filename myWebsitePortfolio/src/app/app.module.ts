@@ -10,6 +10,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
