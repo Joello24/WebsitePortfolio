@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  name: string | undefined;
+  email: string | undefined;
+  message: string | undefined;
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  /**
+   * Process the form we have. Send to whatever backend
+   * Only alerting for now
+   */
+   processForm() {
+    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    alert(allInfo); 
   }
 
 }

@@ -25,10 +25,11 @@ header{
 header ul{
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
 header ul li{
-    padding: 0 30px;;
+    padding: 0 30px;
 }
 
 header ul li:first-child{
@@ -40,14 +41,14 @@ header ul li:last-child{
 }
 
 header ul li a{
-    color: #000000;
+    color: #fff;
     font-weight: 500;
     position: relative;
 }
 
 header ul li a:hover::after, header ul li a.is-active::after{
     content: '';
-    background: #f9b205;
+    background: #7af1ec;
     height: 20px;
     position: absolute;
     left: 1px;
